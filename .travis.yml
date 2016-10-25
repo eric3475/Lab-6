@@ -4,7 +4,7 @@ branches:
 
   cache:
     directories:
-      -$HOME/cache
+      - $HOME/cache
 
   sudo: required
 
