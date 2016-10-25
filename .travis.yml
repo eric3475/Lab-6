@@ -12,5 +12,5 @@ branches:
     - docker
 
   script:
-    - docker build -t webapp:test -f ./Dockerfile
+    - docker build -t webapp:test -f Docker/Dockerfile .
     - docker run -it --rm -v $PWD/packages:/root/.nuget/packages webapp:test
